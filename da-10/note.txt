@@ -1,0 +1,40 @@
+Domain name/IP
+
+IPs means ecvery domain that you see, actually has an undelying IP taht resolves to. You can cheack the ip by running the ping command.
+
+command: ping google.com
+
+Ports: The word "port" can refer to a place for ships to dock, a virtual connection for networks, or a type of wine. 
+
+Mehods:
+CRUD: Create, Read, Update, Delete
+Ex: x.com, gmail.com, to-do websites
+
+C: POST request
+R: GET request
+U: PUT request
+D: DELETE request
+
+https: 443
+http: 80
+
+JSON: Javascript object notation is a lightweight, text-based data interchange format that's easy for humans to read and write, and easy for machines to parse and generate. It's commonly used for transmitting data between a server and a web application. 
+
+Response THe response represents what the server returns you in response to the reaquest
+
+Ex: 
+
+Plaintext data: Not used as often
+
+HTML: If it is a websites
+
+JSON data: IF you want to featch some data(uset details, list todos..., post, etc)
+
+Status codes:
+
+Error 4xx: Your fault
+Error 5xx: Our fault
+
+Body: The req.body property contains key-value pairs of data submitted in the request body
+
+Routes: It is path ot endpoint that define how incoming request are handled by a server
