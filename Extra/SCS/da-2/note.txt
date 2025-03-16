@@ -1,0 +1,52 @@
+Set up express is very hard working task
+we can save this time using express generator
+
+Express generator make the folder structure for you and it will also write the baisc code for the project
+
+express generator ek folder bana kar deta hai, jiska matlab hame khudse folder banana hai, to express generator sare file ko is folder mein daal ke dega
+
+steps to use express generator
+sabse phale jeevan mein ek baar laptop bar install karo globally
+npm i express-generator -g
+to create new app anywhere:
+open cmd move to desktop
+create new app:
+express appname --view=ejs
+
+now use two commands
+cd appname
+npm install
+open it on vs code
+
+************************************************************************************************************************************************************
+
+Mongodb
+
+DB have two types relational and non relational
+
+Database - Jo bhi app aap banavoge unka data jaha store hota hai usse data base kahete hai
+
+Relational
+Non Relational
+
+Code side   |   Mongodb side
+            |   
+DB Setup    |   DB Formation
+Model       |   Collection
+Schema      |   Documents 
+
+models (code) => collection (db)
+schema (code) => documents (db)
+
+ek app ka poora data => db
+ek app mein varaity of data hota hai par poora data hota app ka hi hai, par us data ka sub category kehlaata hai collection
+
+models -> collection -> documents 
+
+Mongodb install steps
+
+install Mongodb
+install mongoosejs
+require and set
+make schema
+create model and export

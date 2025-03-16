@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+body {
+    color: #ffffff;
+    background-color: #0d1117;
+    margin: 0px 9rem;
+}
+
+nav {
+    cursor: pointer;
+    font-weight: 600;
+    /* border-bottom: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.name {
+    color: #c3d0e5;
+}
+
+.nav-1 {
+    font-size: 1.2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul {
+    color: #9ba3b4;
+    font-size: 1.1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-ul > li {
+    list-style: none;
+}
+
+.nav-ul > li:hover {
+    color: #ffffff;
+}
+
+.nav-2 {
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-2 > input {
+    border-radius: 3px;
+    border: 1px solid #9ba3b4;
+    outline: none;
+    background-color: #0d1117;
+    padding: 0.5rem;
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.2 rem;
+    background-color: #0078d4;
+    padding: 0.5rem;
+}
+
+.nav-2 > img {
+    margin-left: 1rem;
+    filter: invert(1);
+}
+
+main {
+    gap: 0.5rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-ul > a,span {
+    font-size: 0.7rem;
+}
+
+.main-ul > a {
+    color: #4daafc;
+}
+
+.head {
+    color: #c3d0e5;
+    font-weight: bolder;
+    font-size: 4.5rem;
+}
+
+.off {
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+}
+
+.plus {
+    border: 1px solid #c3d0e5;
+    background-color: #25292E;
+    color: #c3d0e5;
+}
+
+.img-container {
+    border-radius: 1.5rem;
+    height: 110vh;
+    margin-top: 5rem;
+    background-image: url(https://code.visualstudio.com/assets/home/hero-background.webp);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid-container {
+    height: 90%;
+    border-radius: 0.8rem;
+}

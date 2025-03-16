@@ -1,0 +1,26 @@
+What is Node.js?
+
+Node.js is an open-sourse JS runtime that allows you to execute Javascript code on the server side.
+
+Node.js use v8 engine
+
+What is Bun?
+
+Bun is competing with Node.js
+
+Bun is faster than Node.js
+
+New things!
+
+npm init -y { create the pakage.json }
+
+What is npm?
+
+The full form of NPM is Node Package Manager
+
+npm init
+
+npm run test
+
+npm install chalk { chalk is library }
+const chalk = require("chalk");

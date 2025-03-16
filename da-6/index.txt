@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple app</title>
+</head>
+<body>
+    <h1>hi there</h1>
+</body>
+</html> -->
+
+<!-- Todo List / Static HTML-->
+ <!-- <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+ </head>
+ <body>
+    <h1>Todo List</h1>
+    <h4>1. Take class</h4>
+    <h4>2. Go to eat</h4>
+    <div>
+        <input type="text">
+        <button>Add Todo</button>
+    </div>
+    <script src="app.js"></script>
+ </body>
+ </html> -->
+
+<!-- Todo List / Dynamic HTML-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Todo List</title>
+</head>
+<body>
+   <h1>Todo List</h1>
+   <h4 id="one">1. Take class</h4>
+   <h4 id="two">2. Go to eat</h4>
+   <div>
+       <input type="text">
+       <button onclick="addTodo()">Add Todo</button>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>
+
+<!-- Todo List / Dynamic HTML-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Todo List</title>
+</head>
+
+<body>
+  <h1>Todo List</h1>
+  <div>
+    <div id="todo-1">
+      <h4>1. Take class</h4>
+      <button onclick="deleteTodo(1)">delete</button>
+    </div>
+    <div id="todo-2">
+      <h4>2. Go out to eat</h4>
+      <button onclick="deleteTodo(2)">delete</button>
+    </div>
+  </div>
+  <div>
+    <input type="text"></input>
+    <button>Add Todo</button>
+  </div>
+</body>
+
+<script>
+  function deleteTodo(index) {
+    const element = document.getElementById("todo-" + index);
+    element.parentNode.removeChild(element);
+  }
+</script>
+
+</html>
