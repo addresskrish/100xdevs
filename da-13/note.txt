@@ -1,0 +1,16 @@
+Week 6.1 | HTTP Deep Drive
+
+Auth: Authentication
+
+Auth means basically SingUp and SingIn
+
+            SingUp
+Browers ---------------> Server
+          HTTP Reqest    
+        <---------------
+            SingIn
+
+Browers ---------------> Server
+            SingIn      
+        <---------------
+             Token
